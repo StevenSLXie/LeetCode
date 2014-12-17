@@ -1,4 +1,6 @@
 LeetCode
 ========
 
-LeetCode Implementation in Python
+Accepted LeetCode Solutions in Python;
+
+Actively Updating.
