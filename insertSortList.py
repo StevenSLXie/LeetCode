@@ -15,6 +15,15 @@ class Solution:
         fh.next = head
         cur = head
         # ptr = ptr.next
+        
+        # 1 2 3 5 7 8 4 9
+        # move the pre until a value larger than cur.next is found
+        # then change the link
+        # save the cur.next
+        # point cur.next as cur.next.next (skip the moved one)
+        # point cur.next.next as pre.next
+        # pre.next is now the cur.next
+        
         while cur.next:
             if cur.next.val < cur.val:
                 pre = fh
